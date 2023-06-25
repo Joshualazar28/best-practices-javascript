@@ -1,0 +1,30 @@
+{
+  "name": "best-practice-javascript",
+  "version": "1.0.0",
+  "description": "Best practice Modern JavaScript  ,  Algorithms and data-structures implemented on JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Joshualazar28/best-practices-javascript.git"
+  },
+  "keywords": [
+    "computer-science",
+    "cs",
+    "algorithms",
+    "data-structures",
+    "javascript",
+    "sorting-algorithms",
+    "graph",
+    "tree",
+    "interview-preparation"
+  ],
+  "author": "Joshua Lazar (https://joshualazar.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Joshualazar28/best-practices-javascript/issues"
+  },
+  "homepage": "https://github.com/Joshualazar28/best-practices-javascript#readme"
+}
