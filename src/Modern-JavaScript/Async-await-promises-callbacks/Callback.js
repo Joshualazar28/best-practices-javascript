@@ -3,7 +3,9 @@
 
 
 
-// ****************************Callback ************************************************
+// ****************************Callback ************************************************ 
+// A callback function is a function passed into another function as an argument, 
+// which is then invoked inside the outer function to complete an action 
 
 const data1 = [
   { name: 'Joshua', Profession: 'Software Engineer' },
