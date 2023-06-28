@@ -48,4 +48,17 @@ function createPost(post) {
     })
 }
 
-createPost( { name: 'Joshua', Profession: 'Software Engineer'}).then(getPost)
+createPost( { name: 'Joshua', Profession: 'Software Engineer'})
+.then(getPost).catch(err => console.log(err))
+
+
+// Promises.all 
+/* The code block is demonstrating the usage of `Promise.all` in JavaScript. */
+const promise1 = Promise.resolve('Hello Joshua');
+const promise2 = 22;
+const promise3 = new Promise((resolve, reject) => {
+    setTimeout(resolve, 2000, 'Goodbye')
+})
+const promise4 = fetch('https://jsonplaceholder.typicode.com/users').then(res => res.json())
+
+Promise.all([promise1, promise2, promise3,promise4]).then(values => console.log(values))
