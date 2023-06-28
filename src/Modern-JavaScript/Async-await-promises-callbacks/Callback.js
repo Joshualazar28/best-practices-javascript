@@ -76,10 +76,10 @@ const data2 = [
 
   
   // Second function 
-  function createData(newData, Callback) {
+  function createData(newData, callback) {
     setTimeout(() => {
       data2.push(newData);
-      Callback();
+      callback();
     }, 2000);
   }
   createData({ name: 'mark', Profession: 'Software Engineer' }, getData); 
