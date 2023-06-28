@@ -54,3 +54,13 @@ async function init() {
     getPost()
 }
 init()
+
+
+// async / await / fetch
+async function fetchUser(params) {
+    const  res = await fetch('https://jsonplaceholder.typicode.com/users')
+
+    const data = await res.json()
+    console.log(data)
+}
+fetchUser()
